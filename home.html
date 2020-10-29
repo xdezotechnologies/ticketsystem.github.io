@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<title>Ticketing System</title>
+<meta charset="UTF-8">
+<meta name="description" content="Xdezo - Ticket Management System">
+<meta name="keywords" content="xdezo, ticket, ticket system, creative, html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="img/favicon.ico" rel="shortcut icon" />
+
+
+
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css"> 
+<link rel="stylesheet" href="css/magnific-popup.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">  
+<link rel="stylesheet" href="fonts/linearicons/style.css">
+
+</head>
+<body>
+
+<div id="preloder">
+<div class="loader"></div>
+</div>
+
+<header class="header-section">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 col-md-3">
+<div class="logo">
+<a href="home.html" class="site-logo">TICKET</a>
+</div>
+</div>
+<div class="col-lg-8 col-md-9">
+  <a href="form.html" class="site-btn header-btn-home">OPEN TICKET</a>
+<nav class="main-menu">
+<ul>
+<li><a href="#">My Profile</a></li>
+<li><a href="#">Support Center</a></li>
+<li><a href="index.html">Log Out</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="nav-switch">
+<i class="fa fa-bars"></i>
+</div>
+</header>
+
+
+<section class="table-section">
+<div class="title-container text-center">
+<div class="row">
+<div class="col-xl-10 offset-xl-1">
+  <div class="table-title">
+    <ul class="table-filter controls">
+    <li class="control" data-filter="user"><i class="fa fa-user" aria-hidden="true"></i> Users</li>
+    <li class="control" data-filter="opened"><i class="fa fa-folder-open-o" aria-hidden="true"></i> Opened Ticket</li>
+    <li class="control" data-filter="closed"><i class="fa fa-check-square-o" aria-hidden="true"></i> Closed Ticket</li>
+    </ul>
+    </div>
+</div>
+</div>
+</div>
+<div class="home-table">
+  <div class="container">
+    <div class="table-responsive">
+        <div class="table-wrapper">
+            <div class="open-table-title">
+                <div class="row">
+                    <div class="col-sm-8"><p>Opened <b>Ticket</b></p></div>
+                    <div class="col-sm-4">
+                        <div class="search-box">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <input type="text" class="form-control" placeholder="Search&hellip;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <table class="table table-striped table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Ticket#</th>
+                        <th>Created By</th>
+                        <th>Ticket Topic</i></th>
+                        <th>Department</th>
+                        <th>Created On<i class="fa fa-sort"></i></th>
+                        <th>Status</th>
+                        <th>Subject</th>
+                        <th>Message</th>
+                        <th>File</th>
+                        <th>Priority Level</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>13456</td>
+                        <td>Abhiyan Thapa</td>
+                        <td>Billing & Wallet</td>
+                        <td>Account</td>
+                        <td>29/10/2020 1:29PM</td>
+                        <td>Opened</td>
+                        <td>Box change</td>
+                        <td>old 7001234567 new 7000123456</td>
+                        <td>N/A</td>
+                        <td>High</td>
+                        <td>
+                            <a href="#" class="view" title="View Details" data-toggle="tooltip"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="clearfix">
+                <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
+                <ul class="pagination">
+                    <li class="page-item disabled"><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+                    <li class="page-item"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item active"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">4</a></li>
+                    <li class="page-item"><a href="#" class="page-link">5</a></li>
+                    <li class="page-item"><a href="#" class="page-link"><i class="fa fa-angle-double-right"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>        
+</div>     
+</div>
+
+
+  
+</section>
+
+
+
+
+
+<footer class="footer-section text-center">
+<div class="container">
+<h2 class="section-title mb-5">Let’s work together</h2>
+<a href="index.html" class="site-btn">LOG OUT</a>
+<div class="social-links">
+  <a href="#"><span class="fa fa-linkedin"></span></a>
+  <a href="#"><span class="fa fa-instagram"></span></a>
+  <a href="#"><span class="fa fa-facebook"></span></a>
+</div>
+<div class="copyright">
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved. Powered by <a href="https://www.xdezo.com/" target="_blank"><strong>Xdeo Technologies</strong></a>
+
+</div>
+</div>
+</footer>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/magnific-popup.min.js"></script>
+<script src="js/main.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+
+
+
+</script>
+</body>
+
+</html>
